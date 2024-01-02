@@ -1,0 +1,24 @@
+# [package]
+# name = "Advent23"
+# version = "0.1.0"
+# edition = "2021"
+
+
+[workspace]
+resolver = "1"
+members = [
+"day_1",
+"day_2",
+"day_3",
+"day_4",
+"day_5",
+"day_6",
+"day_7",
+"day_8",
+"day_9",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
+serde_json = "1.0.108"
